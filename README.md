@@ -35,8 +35,8 @@ I used pandas for loading the data into a dataframe and make some maninuplations
 
 1. ```docker-compose exec web python manage.py load_data -m england_data.txt -c England```
 
--c args is the city name of the data you are loading
--m args is the data file you are uploading
+* -c args is the city name of the data you are loading
+* -m args is the data file you are uploading
 
 
 
