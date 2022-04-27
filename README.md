@@ -51,5 +51,3 @@ I used pandas for loading the data into a dataframe and make some maninuplations
 * To see server logs
 ```docker-compose logs```
   
-* To enter docker container shell
-```sudo docker exec -ti <CONTAINER_ID> /bin/sh```
