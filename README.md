@@ -51,3 +51,10 @@ I used pandas for loading the data into a dataframe and make some maninuplations
 * To see server logs
 ```docker-compose logs```
   
+* To enter docker container shell
+```sudo docker exec -ti <CONTAINER_ID> /bin/sh```
+
+## The api endpoints
+
+1. ```/api``` list all the Max Temp data of all regions
+2. ```/api/{location}``` list all the Max Temp data of the specified location
